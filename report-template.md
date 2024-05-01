@@ -28,7 +28,7 @@ If I were given more time, I would perhaps try some more different model algorit
 |--|--|--|--|--|
 |initial|default|default|default|1.80608|
 |add_features|default|default|default|0.62213|
-|hpo|"GBM:'num_boost_round': 100,'num_leaves'(lower=26, upper=66)"|NN_TORCH (num_epochs': 10), activation('relu', 'softrelu', 'tanh'), dropout:(0.0, 0.5, default=0.1)"|"search_strategy: 'auto', num_trials: 5, scheduler: local"|0.48307|
+|hpo|GBM:'num_boost_round': 100,'num_leaves'(lower=26, upper=66)|NN_TORCH (num_epochs': 10), activation('relu', 'softrelu', 'tanh'), dropout:(0.0, 0.5, default=0.1)|search_strategy: 'auto', num_trials: 5, scheduler: local|0.48307|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
@@ -51,5 +51,5 @@ The initial model was trained on the train dataset and resulted in a RMSE score 
 
 Exploratory Data Analysis were helpful for identifying which variables were useful and not as useful as datatypes for the model and feature engineering using the "datetime" column. It resulted in a significant improvement of reducing the RMSE score by 1.18395, from 1.80608 to a RMSE score of 0.62213.
 
-Optimizer and hyperparameter tuning using AutoGluon on Neural Networks and Gradient Boost model algorithms were performed. The top ranked model that performed used WeightedEnsemble_L3. The RMSE score improved from 0.62213 to 0.48307`
+Optimizer and hyperparameter tuning using AutoGluon on Neural Networks and Gradient Boost model algorithms were performed. The top ranked model that performed used WeightedEnsemble_L3. The RMSE score improved from 0.62213 to 0.48307.
 

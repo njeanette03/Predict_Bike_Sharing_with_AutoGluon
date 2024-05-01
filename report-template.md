@@ -28,7 +28,7 @@ If I were given more time, I would perhaps try some more different model algorit
 |--|--|--|--|--|
 |initial|default|default|default|1.80608|
 |add_features|default|default|default|0.62213|
-|hpo|GBM:'num_boost_round': 100,'num_leaves'(lower=26, upper=66)|NN_TORCH (num_epochs': 10), activation('relu', 'softrelu', 'tanh'), dropout:(0.0, 0.5, default=0.1)|search_strategy: 'auto', num_trials: 5, scheduler: local|0.48307|
+|hpo|GBM: num_boost_round: 100,num_leaves(lower=26, upper=66)|NN_TORCH: num_epochs: 10), activation('relu', 'softrelu', 'tanh'), dropout:(0.0, 0.5, default=0.1)|search_strategy: 'auto', num_trials: 5, scheduler: local|0.48307|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 

@@ -55,9 +55,9 @@ pip install jupyterlab
 * There are also docker containers containing jupyter lab from [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html).
 
 ## Information related to project specific files in this repository:<br>
-**1. `project_notebook-bike_sharing_demand.ipynb`:** Jupyter notebook with code<br><br>
-**2. `project_notebook-bike_sharing_demand.ipynb`:** HTML export of the jupyter notebbook<br><br>
-**3. `project_report.md`:** (Markdown file of the report) A report was generated post-submission that meticulously examines the iterations that yielded the most significant improvement in model performance, along with a thorough explanation of the reasons for their effectiveness.<br><br>
+**1. `bike_sharing_demand.ipynb`:** Jupyter notebook with code<br><br>
+**2. `bike_sharing_demand.ipynb`:** HTML export of the jupyter notebbook<br><br>
+**3. `project-report.md`:** (Markdown file of the report) A report was generated post-submission that meticulously examines the iterations that yielded the most significant improvement in model performance, along with a thorough explanation of the reasons for their effectiveness.<br><br>
 
 ## Acknowledgements
 Kaggle is hosting this competition for the machine learning community to use for fun and practice. This dataset was provided by Hadi Fanaee Tork using data from [Capital Bikeshare](https://capitalbikeshare.com/system-data). Thank you to the UCI machine learning repository for hosting the dataset. If you use the problem in publication, please cite:
